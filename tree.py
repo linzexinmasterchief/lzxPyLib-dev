@@ -1,6 +1,6 @@
 # this tree.py is used for constructing a tree data structure, the tree will be made by node
 # this is the definition of a single node class
-class str_node():
+class node():
     
     # each node will have three attributes: ancestor, children, name and value
     # the ancestor is set to self by default in __init__, there will be only one ancestor for one node, 
@@ -66,7 +66,7 @@ class str_node():
             self.value = value
 
     # TODU: make get_value function
-    def get_value():
+    def get_value(self):
         return self.value
     
     def set_children(self, child = None, children = []):
