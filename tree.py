@@ -134,9 +134,10 @@ class node():
     def get_ancestor(self):
         return self.ancestor
 
-node1 = node()
-ch_node = node()
-ad_node = node()
-node1.set_children(ch_node)
-node1.add_children(ad_node)
-print(node1.get_children())
+#=========test area=========#
+# node1 = node()
+# ch_node = node()
+# ad_node = node()
+# node1.set_children(ch_node)
+# node1.add_children(ad_node)
+# print(node1.get_children())
